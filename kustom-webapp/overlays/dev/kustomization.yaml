@@ -1,5 +1,9 @@
 bases:
 - ../../base
+replicas:
+    - name: mywebapp
+      count: 2 
+
 
 #patches:
 # - replicas.yaml
